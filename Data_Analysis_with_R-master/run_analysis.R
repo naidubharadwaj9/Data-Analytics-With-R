@@ -3,8 +3,8 @@ library(plyr)
 # Step 1
 # Merge the training and test sets to create one data set
 ###############################################################################
-
-x_train <- read.table("train/X_train.txt")
+### Load the Training data
+x_train <- read.table("train/X_train.txt")  
 y_train <- read.table("train/y_train.txt")
 subject_train <- read.table("train/subject_train.txt")
 
